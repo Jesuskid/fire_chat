@@ -62,5 +62,10 @@ This is a simple four page android chat application created with flutter and fir
  
  
  The app should now run with no issues.
+ 
+[<img src="shots/1.png" width="250"/>](screenshot)
+[<img src="shots/2.png" width="250"/>](screenshot)
+[<img src="shots/3.png" width="250"/>](screenshot)
+[<img src="shots/4.png" width="250"/>](screenshot)
 
 
