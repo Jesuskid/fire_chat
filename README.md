@@ -15,13 +15,13 @@ This is a simple four page android chat application created with flutter and fir
 ## Getting Started
 
 
- ###Firebase intergration
- ####-create an account with google/firebase
+ Firebase intergration
+ -create an account with google/firebase
     - add the email and password authentication
     - add cloud firestore storage
  
  
- ##In app level build.gradle file
+ In app level build.gradle file
 
      
      //Your application Id should match the application Id you created in the firebase console
@@ -34,7 +34,7 @@ This is a simple four page android chat application created with flutter and fir
               versionName flutterVersionName
           }
  
- ###Make sure the following dependencies are present
+ Make sure the following dependencies are present
  
      dependencies {
          implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -43,8 +43,9 @@ This is a simple four page android chat application created with flutter and fir
      }
      
      apply plugin: 'com.google.gms.google-services'
+     
  
- ##In the plaform level build.gradle
+ In the plaform level build.gradle
  
  Ensure that you dependencies have these:
  
