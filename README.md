@@ -22,24 +22,23 @@ This is a simple four page android chat application created with flutter and fir
  
  
  ##In app level build.gradle file
- '''gradle
-   
-   defaultConfig {
-         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-         applicationId "com.rawllings.fire_chat"
-         minSdkVersion 21
-         targetSdkVersion 30
-         versionCode flutterVersionCode.toInteger()
-         versionName flutterVersionName
-     }
+ '''dart
+
      
      //Your application Id should match the application Id you created in the firebase console
-
+      defaultConfig {
+              // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+              applicationId "com.rawllings.fire_chat"
+              minSdkVersion 21
+              targetSdkVersion 30
+              versionCode flutterVersionCode.toInteger()
+              versionName flutterVersionName
+          }
  '''
  
  ###Make sure the following dependencies are present
  '''dart
-  
+ 
      dependencies {
          implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
          implementation platform('com.google.firebase:firebase-bom:28.4.1')
