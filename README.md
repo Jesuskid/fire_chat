@@ -22,7 +22,6 @@ This is a simple four page android chat application created with flutter and fir
  
  
  ##In app level build.gradle file
- '''dart
 
      
      //Your application Id should match the application Id you created in the firebase console
@@ -34,10 +33,8 @@ This is a simple four page android chat application created with flutter and fir
               versionCode flutterVersionCode.toInteger()
               versionName flutterVersionName
           }
- '''
  
  ###Make sure the following dependencies are present
- '''dart
  
      dependencies {
          implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -46,7 +43,6 @@ This is a simple four page android chat application created with flutter and fir
      }
      
      apply plugin: 'com.google.gms.google-services'
- '''
  
  ##In the plaform level build.gradle
  
